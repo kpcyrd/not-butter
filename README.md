@@ -1,10 +1,14 @@
 # not butter
 
 ```
+<@whyrusleeping> but why?
+```
+
+# Usage
+
+```
 var butter = require('not-butter');
-if(!butter) {
-    ...
-}
+butter.map(x => console.log(x.src));
 ```
 
 ## Install
